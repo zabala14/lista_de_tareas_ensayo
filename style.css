@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#task-form input {
+    padding: 10px;
+    margin: 10px;
+}
+
+#task-list {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding por defecto */
+}
+
+#task-list li {
+    background-color: #fff; /* Color de fondo blanco para las tareas */
+    border: 1px solid #ddd; /* Borde gris claro */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Margen entre las tareas */
+    display: flex; /* Usar flexbox para alinear elementos dentro del li */
+    justify-content: space-between; /* Espacio entre el texto y el botón */
+}
