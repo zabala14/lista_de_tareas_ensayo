@@ -1,3 +1,4 @@
+
 const input = document.getElementById('ingresar-tarea');
 const boton = document.querySelector('button');
 const listaDeTareas = document.getElementById('lista-de-tareas');
@@ -56,3 +57,4 @@ function eliminarTarea(e) {
   let tarea = e.target.parentNode.parentNode;
   tarea.remove();
 }
+
